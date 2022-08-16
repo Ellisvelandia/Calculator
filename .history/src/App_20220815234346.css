@@ -17,16 +17,8 @@ body {
 }
 
 .calculator-grid > button {
-  cursor: pointer;
-  font-size: 2rem;
-  border: 1px solid white;
-  outline: none;
-  background: rgba(255, 255, 255, 0.75);
-}
-
-.calculator-grid > button:hover,
-.calculator-grid > button:focus {
-  background-color: rgba(255, 255, 255, 0.9);
+  cursor:pointer;
+  font-size;
 }
 
 .span-two {
@@ -40,8 +32,8 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  padding: 0.75rem;
-  word-break: break-all;
+  padding: .75rem;
+  word-break:break-all;
 }
 
 .output .previous-operand {

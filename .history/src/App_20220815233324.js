@@ -1,13 +1,13 @@
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
-    <div className="calculator-grid">
-      <div className="output">
+    <div className="calculator.grid">
+      <div className='output'>
         <div className="previous-operand"></div>
         <div className="current-operand"></div>
       </div>
-      <button className="span-two">AC</button>
+      <button className='span-two'>AC</button>
       <button>DEL</button>
       <button>÷</button>
       <button>1</button>
@@ -24,9 +24,10 @@ function App() {
       <button>-</button>
       <button>.</button>
       <button>0</button>
-      <button className="span-two">=</button> 
+      <button className=''></button>
+
     </div>
   );
 }
 
-export default App;
+export default App
