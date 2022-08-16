@@ -1,6 +1,7 @@
 import { useReducer } from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
+import Switch from "react-switch";
 
 import "./App.css"
 

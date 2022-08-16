@@ -1,6 +1,7 @@
 import { useReducer } from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
+import Switch from "react-switch";
 
 import "./App.css"
 
@@ -13,7 +14,7 @@ export const ACTIONS = {
 }
 
 function reducer(state, { type, payload }) {
-  switch (type) {
+  Switch (type) {
     case ACTIONS.ADD_DIGIT:
       if (state.overwrite) {
         return {
