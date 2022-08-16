@@ -51,6 +51,7 @@ function App() {
       <DigitButton digit="9" dispatch={dispatch} />
       <OperationDigitButton operation="-" dispatch={dispatch} />
 
+      <button>-</button>
       <DigitButton digit="." dispatch={dispatch} />
       <DigitButton digit="0" dispatch={dispatch} />
       <button className="span-two">=</button>
